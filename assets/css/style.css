@@ -167,7 +167,6 @@ footer .navhover:hover {
     background-color: var(--c-primery);
 }
 
-
 .navhover:hover::before {
     width: 100%;
 }
@@ -175,7 +174,6 @@ footer .navhover:hover {
 .navhover:hover:after {
     width: 100%;
 }
-
 
 /* paddings  margin */
 .pt-73 {
@@ -500,7 +498,6 @@ footer .navhover:hover {
     width: 100%;
     z-index: -1;
     height: 100%;
-
 }
 
 .padding-card-uniq {
@@ -516,8 +513,6 @@ footer .navhover:hover {
     background-size: 100% 100%;
 
 }
-
-
 
 .carduniq {
     width: 100%;
@@ -623,7 +618,6 @@ footer .navhover:hover {
     border-radius: 8px;
 }
 
-
 .tokenellipes1 {
     position: absolute;
     max-width: 228px;
@@ -711,7 +705,6 @@ footer .navhover:hover {
     bottom: 0px;
     width: 4000px;
     right: 100%;
-    /* z-index: ; */
     background-color: #040404;
 }
 
@@ -721,13 +714,11 @@ footer .navhover:hover {
 
 .fixer2 {
     transform: rotate(48deg) translate(0px, -1px);
-    /* background-color: var(--color-orange) !important; */
     border-radius: 20px;
 }
 
 .fixer3 {
     transform: rotate(-45deg) translate(14px, -14px);
-    /* background-color: var(--color-orange) !important; */
     border-radius: 20px;
 }
 
@@ -776,7 +767,6 @@ footer .navhover:hover {
     height: 24px;
     border-radius: 999px;
     left: -32px;
-    /* left: -82px; */
     top: 56px;
     background-color: #fcfcfc;
 }
@@ -793,7 +783,6 @@ footer .navhover:hover {
     height: 50px;
     border: 2px solid transparent;
     border-top: 2px solid var(--c-primery);
-    /* border-bottom: 2px solid var(--c-primery); */
     animation: moveit 2s infinite;
 }
 
@@ -828,7 +817,6 @@ footer .navhover:hover {
         height: 5px;
         background-color: var(--c-primery);
     }
-
 
     .mobileshow {
         position: fixed;
@@ -944,7 +932,6 @@ footer .navhover:hover {
     .pt-sm-36 {
         padding-top: 36px;
     }
-
 }
 
 @media (min-width:992px) {
@@ -978,9 +965,6 @@ footer .navhover:hover {
         background-color: var(--c-primery);
         filter: blur(228px);
     }
-
-
-
 }
 
 @media (min-width:768px) {
@@ -1066,8 +1050,6 @@ footer .navhover:hover {
     .mt-md-150 {
         margin-top: 150px;
     }
-
-
 
     .max-w-md-364 {
         max-width: 364px;
