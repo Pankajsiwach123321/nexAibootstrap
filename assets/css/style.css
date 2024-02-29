@@ -79,8 +79,8 @@
     max-width: 684px;
 }
 
-.max-w-316 {
-    max-width: 316px;
+.max-w-254 {
+    max-width: 252px;
 }
 
 .max-h-599 {
@@ -114,10 +114,13 @@
     line-height: 19px;
 }
 
+.lh-50 {
+    line-height: 50px;
+}
+
 .lh-38 {
     line-height: 38px;
 }
-
 
 .lh-45 {
     line-height: 45px;
@@ -226,16 +229,8 @@ footer .navhover:hover {
     padding-right: 0;
 }
 
-.max-w-254 {
-    max-width: 252px;
-}
-
 .mt_3 {
     margin-top: 16px;
-}
-
-.shadow-slidesnex {
-    box-shadow: 0px 4px 20px 0px #02CDCF29
 }
 
 .pt-20 {
@@ -289,6 +284,22 @@ footer .navhover:hover {
 
 .pb-80 {
     padding-bottom: 80px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.pb-25 {
+    padding-bottom: 25px;
+}
+
+.pt-25 {
+    padding-top: 25px;
+}
+
+.py-28-38 {
+    padding: 28px 0 38px;
 }
 
 .mt-23 {
@@ -366,7 +377,6 @@ footer .navhover:hover {
     transform: translateY(-20%);
 }
 
-
 .whatnexbg {
     background-image: url(../images/bg-gif.webp);
     background-size: 100% 100%;
@@ -379,8 +389,8 @@ footer .navhover:hover {
     padding: 25px 25px;
 }
 
-.mb-100 {
-    margin-bottom: 100px;
+.shadow-slidesnex {
+    box-shadow: 0px 4px 20px 0px #02CDCF29
 }
 
 .bg-cardnex {
@@ -453,10 +463,6 @@ footer .navhover:hover {
     display: none;
 }
 
-.pb-25 {
-    padding-bottom: 25px;
-}
-
 .footerelipes {
     position: absolute;
     max-width: 288px;
@@ -474,8 +480,8 @@ footer .navhover:hover {
     position: absolute;
     left: 25%;
     top: 24%;
-    max-width: 231px;
-    max-height: 231px;
+    max-width: 175px;
+    max-height: 175px;
     width: 100%;
     height: 100%;
     filter: blur(277px);
@@ -504,6 +510,12 @@ footer .navhover:hover {
     padding: 30px 25px 0;
 }
 
+.custumheader-xl-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
 .uniqfeature-bg {
     border: 1px solid white;
     height: 810px;
@@ -529,7 +541,6 @@ footer .navhover:hover {
     color: #02CDCF;
 }
 
-
 .myscrol::-webkit-scrollbar {
     display: none;
 }
@@ -546,7 +557,6 @@ footer .navhover:hover {
 .polygon:hover div p {
     color: var(--c-primery);
 }
-
 
 .earthset {
     border-radius: 999px;
@@ -569,11 +579,11 @@ footer .navhover:hover {
     max-width: 288px;
     max-height: 288px;
     width: 100%;
-    z-index: 1;
     height: 100%;
     position: absolute;
-    left: -12%;
-    top: 28%;
+    left: -15%;
+    top: 21%;
+    z-index: 1;
     display: none;
     background: var(--c-primery);
     filter: blur(170px);
@@ -686,6 +696,14 @@ footer .navhover:hover {
     filter: blur(217px);
 }
 
+.size-circel {
+    width: 58px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .readyellipes {
     max-width: 228px;
     max-height: 228px;
@@ -694,17 +712,18 @@ footer .navhover:hover {
     position: absolute;
     left: -12%;
     top: 5%;
+    z-index: -1;
     background-color: var(--c-primery);
     filter: blur(175px);
 }
 
 .blockchain .slick-list::after {
-    content: ' ';
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    width: 4000px;
-    right: 100%;
+    content: ' ' !important;
+    position: absolute !important;
+    top: 0 !important;
+    bottom: -180px !important;
+    width: 4000px !important;
+    right: 100% !important;
     background-color: #040404;
 }
 
@@ -739,10 +758,6 @@ footer .navhover:hover {
 
 .hoversocial:hover svg.tele path {
     stroke: white;
-}
-
-.pt-25 {
-    padding-top: 25px;
 }
 
 .nexai .slick-track {
@@ -786,16 +801,11 @@ footer .navhover:hover {
     animation: moveit 2s infinite;
 }
 
-.py-28-38 {
-    padding: 28px 0 38px;
-}
-
 @keyframes moveit {
     0% {
         transform: rotate(-360deg);
     }
 }
-
 
 @media (max-width:640px) {
     label[id="nav"] {
@@ -844,13 +854,18 @@ footer .navhover:hover {
         display: flex;
     }
 
-}
 
+}
 
 @media (min-width:576px) {
     .py-sm-38 {
         padding-top: 38px;
         padding-bottom: 38px;
+    }
+
+    .artbort_2ellipes {
+        max-width: 231px;
+        max-height: 231px;
     }
 
     .main-button {
@@ -934,39 +949,6 @@ footer .navhover:hover {
     }
 }
 
-@media (min-width:992px) {
-    .navbarfix {
-        margin-right: 120px;
-    }
-
-    .py-lg-0 {
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-
-    .mt-lg-111 {
-        margin-top: 111px;
-    }
-
-    .padding-whatnexai {
-        padding: 163px 100px;
-    }
-
-    .whatnexellipes2 {
-        position: absolute;
-        z-index: 1;
-        max-width: 228px;
-        max-height: 228px;
-        width: 100%;
-        height: 100%;
-        bottom: 20%;
-        right: 10%;
-        border-radius: 999px;
-        background-color: var(--c-primery);
-        filter: blur(228px);
-    }
-}
-
 @media (min-width:768px) {
     .custumheader-xl-container {
         min-width: 730px;
@@ -976,6 +958,10 @@ footer .navhover:hover {
 
     .nexaiellipes {
         display: block;
+    }
+
+    .max-w-md-316 {
+        max-width: 316px;
     }
 
     .pt-md-60 {
@@ -1063,6 +1049,39 @@ footer .navhover:hover {
 
     .align-items_maxlg-center {
         align-items: center;
+    }
+}
+
+@media (min-width:992px) {
+    .navbarfix {
+        margin-right: 120px;
+    }
+
+    .py-lg-0 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .mt-lg-111 {
+        margin-top: 111px;
+    }
+
+    .padding-whatnexai {
+        padding: 163px 100px;
+    }
+
+    .whatnexellipes2 {
+        position: absolute;
+        z-index: 1;
+        max-width: 228px;
+        max-height: 228px;
+        width: 100%;
+        height: 100%;
+        bottom: 20%;
+        right: 10%;
+        border-radius: 999px;
+        background-color: var(--c-primery);
+        filter: blur(228px);
     }
 }
 
